@@ -1,0 +1,1 @@
+"""Tests for Pharma AI system"""

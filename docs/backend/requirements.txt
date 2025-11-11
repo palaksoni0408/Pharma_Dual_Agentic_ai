@@ -1,0 +1,23 @@
+cat > backend/requirements-minimal.txt << 'EOF'
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-dotenv==1.0.1
+pydantic==2.6.0
+pydantic-settings==2.1.0
+openai==1.10.0
+google-generativeai==0.3.2
+httpx==0.26.0
+aiohttp==3.9.3
+beautifulsoup4==4.12.3
+lxml==5.1.0
+PyPDF2==3.0.1
+reportlab==4.0.9
+pillow==10.2.0
+markdown==3.5.2
+tenacity==8.2.3
+tiktoken==0.5.2
+redis==5.0.1
+sqlalchemy==2.0.25
+EOF
+
+pip install -r backend/requirements-minimal.txt
